@@ -1,0 +1,21 @@
+{
+  "name": "she-care-tts",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Native TTS bridge (Android TextToSpeech / iOS AVSpeechSynthesizer) for the She Care 3D Talking Assistant.",
+  "license": "MIT",
+  "react-native": "src/index",
+  "main": "src/index",
+  "author": "She Care",
+  "homepage": "https://shecare.example",
+  "files": [
+    "android",
+    "ios",
+    "src",
+    "SheCareTTS.podspec",
+    "react-native.config.js"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  }
+}

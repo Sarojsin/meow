@@ -1,0 +1,14 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@assistant/*": ["src/assistant/*"],
+      "@components/*": ["src/components/*"]
+    },
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  },
+  "include": ["src", "App.tsx", "index.js", "*.ts", "*.tsx"]
+}
